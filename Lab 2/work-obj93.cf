@@ -1,0 +1,7 @@
+v 4
+file . "multiplexador8x1restrito_tb.vhd" "8cd9a44bc19fea3379cb2c90e571618d5cf1378d" "20211020233026.101":
+  entity multiplexador8x1restrito_tb at 1( 0) + 0 on 13;
+  architecture a_multiplexador8x1restrito_tb of multiplexador8x1restrito_tb at 6( 109) + 0 on 14;
+file . "multiplexador8x1restrito.vhd" "ee5ca76dac10236b71a2495fc7dd9c9ad633ec6d" "20211020232350.390":
+  entity multiplexador8x1restrito at 1( 0) + 0 on 11;
+  architecture a_multiplexador8x1restrito of multiplexador8x1restrito at 21( 398) + 0 on 12;
