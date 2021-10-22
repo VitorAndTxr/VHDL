@@ -1,7 +1,13 @@
 v 4
-file . "multiplexador8x1restrito_tb.vhd" "8cd9a44bc19fea3379cb2c90e571618d5cf1378d" "20211020233026.101":
-  entity multiplexador8x1restrito_tb at 1( 0) + 0 on 13;
-  architecture a_multiplexador8x1restrito_tb of multiplexador8x1restrito_tb at 6( 109) + 0 on 14;
+file . ".\soma_e_subtrai.vhd" "0c99afa1d4d9564683431956b6f94a7f922be195" "20211021223216.219":
+  entity soma_e_subtrai at 1( 0) + 0 on 15;
+  architecture a_soma_e_subtrai of soma_e_subtrai at 11( 237) + 0 on 16;
 file . "multiplexador8x1restrito.vhd" "ee5ca76dac10236b71a2495fc7dd9c9ad633ec6d" "20211020232350.390":
   entity multiplexador8x1restrito at 1( 0) + 0 on 11;
   architecture a_multiplexador8x1restrito of multiplexador8x1restrito at 21( 398) + 0 on 12;
+file . "multiplexador8x1restrito_tb.vhd" "8cd9a44bc19fea3379cb2c90e571618d5cf1378d" "20211020233026.101":
+  entity multiplexador8x1restrito_tb at 1( 0) + 0 on 13;
+  architecture a_multiplexador8x1restrito_tb of multiplexador8x1restrito_tb at 6( 109) + 0 on 14;
+file . ".\soma_e_subtrai_tb.vhd" "e7cacee01d05e94f0ad4061598d89f1c39bd3bb5" "20211021225302.377":
+  entity soma_e_subtrai_tb at 1( 0) + 0 on 23;
+  architecture a_soma_e_subtrai_tb of soma_e_subtrai_tb at 7( 109) + 0 on 24;

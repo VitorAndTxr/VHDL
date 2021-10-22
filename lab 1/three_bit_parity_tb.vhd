@@ -45,15 +45,12 @@ architecture a_three_bit_parity_tb of three_bit_parity_tb is
 		wait for 50 ns;
 		in_a <= '1';
 		in_b <= '0';
-		in_c <= '1';
 		wait for 50 ns;
 		in_a <= '0';
 		in_b <= '1';
-		in_c <= '1';
 		wait for 50 ns;
 		in_a <= '1';
 		in_b <= '1';
-		in_c <= '1';
 		wait for 50 ns;
 		wait;
 	end process;
