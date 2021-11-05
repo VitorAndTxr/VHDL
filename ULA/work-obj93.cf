@@ -1,7 +1,22 @@
 v 4
-file . "ula.vhd" "9ac79a0e2802af7f6f22c2cabd16353e19ea2b6f" "20211022004643.084":
-  entity ula at 1( 0) + 0 on 33;
-  architecture a_ula of ula at 12( 259) + 0 on 34;
+file . "mux2x1.vhd" "bd0ed6253ceb1e5e657821acf48b00fc4b7d173d" "20211105005203.266":
+  entity mux2x1 at 1( 0) + 0 on 59;
+  architecture a_mux2x1 of mux2x1 at 13( 215) + 0 on 60;
+file . "RegFileUla.vhd" "4ba08539c3849e903640d1bfeeb7784aeb7cecc9" "20211105010435.014":
+  entity regfileula at 1( 0) + 0 on 71;
+  architecture a_regfileula of regfileula at 8( 115) + 0 on 72;
+file . "RegFile.vhd" "caf88b68cb8bdbd77a0d6960c7e18a5bd5de8627" "20211104214724.048":
+  entity regfile at 2( 2) + 0 on 39;
+  architecture a_regfile of regfile at 14( 784) + 0 on 40;
 file . "ula_tb.vhd" "dfa6a59b7297e1e700912da2a4af7b27f091253e" "20211022004646.095":
   entity ula_tb at 1( 0) + 0 on 35;
   architecture a_ula_tb of ula_tb at 8( 107) + 0 on 36;
+file . "reg16bits.vhd" "92df76d33d763646fa2a02c611b9e6b88dd6c390" "20211104214654.252":
+  entity reg16bits at 2( 2) + 0 on 37;
+  architecture a_reg16bits of reg16bits at 15( 583) + 0 on 38;
+file . "RegFile_tb.vhd" "781375a74c2631c93947a3e4cb9a08a12e908c8c" "20211104221043.706":
+  entity regfile_tb at 2( 2) + 0 on 53;
+  architecture a_regfile_tb of regfile_tb at 9( 113) + 0 on 54;
+file . "Ula.vhd" "b49b5cb13c13bc42840c8b93b778721799e04a01" "20211105005205.605":
+  entity ula at 1( 0) + 0 on 61;
+  architecture a_ula of ula at 12( 261) + 0 on 62;
